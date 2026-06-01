@@ -18,11 +18,11 @@ echo "🗄️ Session database: $DB_FILE"
 echo "📡 Session URI: $SESSION_URI"
 
 # Activate virtual environment
-if [ -f ".venv/bin/activate" ]; then
-    source .venv/bin/activate
+if [ -f "../../.venv/bin/activate" ]; then
+    source ../../.venv/bin/activate
     echo "✅ Virtual environment activated"
 else
-    echo "❌ Virtual environment not found at .venv/bin/activate"
+    echo "❌ Virtual environment not found at ../../.venv/bin/activate"
     exit 1
 fi
 
